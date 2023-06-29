@@ -20,3 +20,6 @@ alias gs='git status'
 alias gdc='git diff --cached'
 alias gca='git commit --amend'
 alias gp='git push'
+
+# Nix aliases
+alias ns='nix-shell --command zsh'
