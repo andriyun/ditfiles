@@ -15,10 +15,10 @@ alias tfd='terraform destroy'
 alias tfs='terraform show'
 alias tfv='terraform validate'
 
-alias gc='git commit -m'
+alias gc='git commit -s -m'
 alias gs='git status'
 alias gdc='git diff --cached'
-alias gca='git commit --amend'
+alias gca='git commit -s --amend'
 alias gp='git push'
 
 # Nix aliases
