@@ -16,7 +16,8 @@ source $DOT_DIR/tmux.sh
 source $DOT_DIR/nix.sh
 
 source <(kubectl completion zsh)
-source /home/ayu/Work/test/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+source $DOT_DIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export PATH="${PATH}:${HOME}/.krew/bin"
 
