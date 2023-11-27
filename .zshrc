@@ -1,3 +1,8 @@
+# Add path for Macos
+realpath() {
+    [[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}"
+}
+
 DOT_DIR=$(realpath ~/.dotfiles)
 
 export ZSH="$HOME/.oh-my-zsh"
