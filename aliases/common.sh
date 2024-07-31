@@ -16,8 +16,6 @@ alias tfd='terraform destroy'
 alias tfs='terraform show'
 alias tfv='terraform validate'
 
-alias gc='git commit -s -m'
-alias gdc='git diff --cached'
 alias gca='git commit -s --amend'
 alias grh='git reset --hard HEAD'
 alias gast='gaa && gst'
