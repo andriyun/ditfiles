@@ -7,6 +7,7 @@ DOT_DIR=$(realpath ~/.dotfiles)
 
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="jonathan"
+ZSH_CUSTOM=$DOT_DIR/ZSH_CUSTOM
 
 plugins=(
   git
@@ -23,8 +24,6 @@ source $DOT_DIR/nix.sh
 source $DOT_DIR/common.sh
 
 source <(kubectl completion zsh)
-
-source $DOT_DIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export PATH="${PATH}:${HOME}/.krew/bin"
 
